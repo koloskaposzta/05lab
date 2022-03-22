@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "endpoint", "endpoint\endpoint.csproj", "{5ABA2FC5-B495-4751-9B10-6FCDA747BD9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{3B6444D2-97E6-408F-8F6A-4084CC64A37D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F6B0D3A-D06A-4E1B-8E4A-70E1911E0EEC} = {4F6B0D3A-D06A-4E1B-8E4A-70E1911E0EEC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

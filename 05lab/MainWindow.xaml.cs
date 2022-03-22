@@ -22,6 +22,7 @@ namespace _05lab
     {
         public MainWindow()
         {
+            
             InitializeComponent();
         }
     }

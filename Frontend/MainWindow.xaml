@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <ListBox x:Name="lb_out" Grid.Row="0" Grid.Column="0"/>
         <ListBox x:Name="lb_in" Grid.Row="0" Grid.Column="1"/>
-        <TextBox  x:Name="tb_send" Grid.Row="1" Grid.Column="0"/>
-        <Button x:Name="b_send" Content="Send" Grid.Row="1" Grid.Column="1"/>
+        <TextBox  x:Name="tb_send" Text="" Grid.Row="1" Grid.Column="0"/>
+        <Button x:Name="b_send" Content="Send" Grid.Row="1" Grid.Column="1" Command="{Binding sendMsg}"/>
     </Grid>
 </Window>
