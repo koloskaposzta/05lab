@@ -24,7 +24,7 @@ namespace lab5frontend
     {
         public MainWindowViewModel()
         {
-            //public RestCollection<Message>
+            //public RestCollection<Message>grtzf
         }
     }
 }
