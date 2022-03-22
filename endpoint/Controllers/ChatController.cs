@@ -28,7 +28,7 @@ namespace endpoint.Controllers
 
         [HttpPost]
 
-        public void SendAMessage(Message m)
+        public void SendAMessage([FromBody] Message m)
         {
             logic.SendMessage(m);
         }
